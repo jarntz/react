@@ -1,0 +1,112 @@
+@import './variables';
+@import './mixin';
+
+// @font-face {
+//   font-family: NAME;
+//   src: url('../assets/fonts/NAME/NAME-Regular.eot');
+//   src: url('../assets/fonts/NAME/NAME-Regular.eot?#iefix') format('embedded-opentype'),
+//     url('../assets/fonts/NAME/NAME-Regular.woff2') format('woff2'),
+//     url('../assets/fonts/NAME/NAME-Regular.woff') format('woff'),
+//     url('../assets/fonts/NAME/NAME-Regular.ttf') format('truetype');
+//   font-weight: 400;
+//   font-style: normal;
+// }
+
+body {
+  font-family: $font;
+  color: $black;
+}
+
+h1 {
+  font-family: $font;
+  font-size: $fs-h1;
+  font-weight: $fw-700;
+  line-height: $lh-h1;
+}
+
+h2 {
+  font-family: $font;
+  font-size: $fs-h2;
+  font-weight: $fw-700;
+  line-height: $lh-h2;
+}
+
+h3 {
+  font-family: $font;
+  font-size: $fs-h3;
+  font-weight: $fw-700;
+  line-height: $lh-h3;
+}
+
+h4 {
+  font-family: $font;
+  font-size: $fs-h4;
+  font-weight: $fw-500;
+  line-height: $lh-h4;
+}
+
+a,
+span,
+li,
+input,
+textarea,
+button,
+select,
+p {
+  font-size: $fs-p;
+  font-weight: $fw-400;
+  line-height: 30px;
+}
+
+::selection {
+  color: $white;
+  background: $dark;
+}
+
+h1::selection,
+h2::selection,
+h3::selection,
+img::selection {
+  color: $white;
+  background: $dark;
+}
+
+@media only screen and (max-width: calc($break-xl + 150px)) {
+  h1 {
+    font-size: $fs-h2;
+
+    &::after {
+      width: 8px;
+      height: 8px;
+    }
+  }
+
+  h2 {
+    font-size: 36px;
+
+    &::after {
+      width: 5px;
+      height: 5px;
+      margin-left: 2px;
+    }
+  }
+
+  h3 {
+    font-size: $fs-h3;
+  }
+
+  h4 {
+    font-size: $fs-h4;
+  }
+
+  a,
+  span,
+  li,
+  input,
+  textarea,
+  button,
+  select,
+  p {
+    font-size: $fs-p-small;
+  }
+}

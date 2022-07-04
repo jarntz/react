@@ -1,0 +1,5 @@
+{
+  "src/**/*.{css,scss,js,jsx,ts,tsx,html}": "prettier --check",
+  "public/**/*.html": "prettier --check",
+  "src/**/*.{css,scss}": "stylelint"
+}

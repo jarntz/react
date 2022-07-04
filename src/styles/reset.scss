@@ -1,0 +1,123 @@
+@import './variables';
+@import './mixin';
+
+html {
+  scroll-behavior: smooth;
+}
+
+svg {
+  display: block;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: $super-light-gray;
+
+  &-thumb {
+    background: $dark;
+  }
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+p,
+ul,
+ol,
+dl,
+address,
+button {
+  padding: 0;
+}
+
+input,
+textarea {
+  width: 100%;
+
+  &:focus-visible {
+    outline: none;
+  }
+}
+
+button {
+  background: none;
+  color: $black;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-family: inherit;
+  outline: inherit;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+hr {
+  border: 0.5px solid;
+}
+
+ul {
+  list-style: none;
+}
+
+ol {
+  padding-left: 10px;
+}
+
+a,
+em {
+  font-style: normal;
+  text-decoration: none;
+}
+
+img,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+}
+
+img,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  vertical-align: middle;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+  border-style: none;
+}

@@ -1,0 +1,66 @@
+// Colors
+$black: #000;
+$dark: #232323;
+$dark-gray: #4a4a4a;
+$light: #cacaca;
+$light-gray: #f1f1f1;
+$super-light-gray: #fbfbfb;
+$white: #fff;
+
+// Fonts
+$font: system-ui, -apple-system, helvetica, arial, sans-serif;
+$fs-h1: 64px;
+$fs-h2: 46px;
+$fs-h3: 26px;
+$fs-h4: 22px;
+$fs-h5: 20px;
+$fs-p: 18px;
+$fs-p-small: 16px;
+$fs-icon: 57px;
+
+// Line heights
+$lh-h1: 1.2em;
+$lh-h2: 1.3em;
+$lh-h3: 1.6em;
+$lh-h4: 1.8em;
+$lh-p: 1.8em;
+
+// Font weights
+$fw-200: 200;
+$fw-300: 300;
+$fw-400: 400;
+$fw-500: 500;
+$fw-600: 600;
+$fw-700: 700;
+$fw-800: 800;
+
+// Spacing
+$spacing-004: 4px;
+$spacing-008: 8px;
+$spacing-012: 12px;
+$spacing-016: 16px;
+$spacing-024: 24px;
+$spacing-032: 32px;
+$spacing-040: 40px;
+$spacing-048: 48px;
+$spacing-064: 64px;
+$spacing-080: 80px;
+$spacing-096: 96px;
+$spacing-128: 128px;
+$spacing-160: 160px;
+$spacing-270: 270px;
+
+// Radius
+$br-5: 5px;
+$br-10: 10px;
+
+// Effects
+$transition: all 0.2s ease-in-out;
+$scale: scale(1.05);
+
+// Breakpoints
+$break-sm: 64px;
+$break-md: 768px;
+$break-lg: 1024px;
+$break-xl: 1280px;
+$break-2xl: 1536px;
