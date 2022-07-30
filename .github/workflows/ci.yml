@@ -37,7 +37,7 @@ jobs:
 
       - name: Build and test
         run: |
-          yarn ci
+          yarn install --frozen-lockfile
           yarn build --if-present
           yarn test
 
