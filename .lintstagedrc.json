@@ -1,6 +1,4 @@
 {
-  "src/**/*.{css,scss,js,jsx,ts,tsx,html}": "prettier --check",
-  "public/**/*.html": "prettier --check",
-  ".github/**/*.{yml,yaml}": "prettier --check",
+  "*": "prettier --check",
   "src/**/*.{css,scss}": "stylelint"
 }
