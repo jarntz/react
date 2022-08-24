@@ -48,7 +48,7 @@
     "stylelint-config-prettier-scss": "^0.0.1",
     "stylelint-config-standard-scss": "^4.0.0",
     "tailwindcss": "^3.0.24",
-    "vercel": "^27.3.0"
+    "vercel": "^28.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
