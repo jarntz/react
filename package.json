@@ -9,7 +9,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/react-fontawesome": "^0.1.18",
-    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
@@ -48,7 +48,7 @@
     "stylelint-config-prettier-scss": "^0.0.1",
     "stylelint-config-standard-scss": "^4.0.0",
     "tailwindcss": "^3.0.24",
-    "vercel": "^27.3.0"
+    "vercel": "^28.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
