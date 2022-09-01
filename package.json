@@ -43,7 +43,7 @@
     "postcss": "^8.4.16",
     "prettier": "^2.7.1",
     "prettier-plugin-tailwindcss": "^0.1.11",
-    "sass": "^1.54.5",
+    "sass": "^1.54.8",
     "stylelint": "^14.11.0",
     "stylelint-config-prettier-scss": "^0.0.1",
     "stylelint-config-standard-scss": "^5.0.0",
