@@ -15,6 +15,9 @@ module.exports = {
       fontFamily: {
         silka: ['Silka', 'Helvetica', 'Arial', 'sans-serif'],
       },
+      animation: {
+        'spin-slow': 'spin 5s linear infinite',
+      },
     },
   },
   plugins: ['@tailwindcss/typography', '@tailwindcss/forms', '@tailwindcss/line-clamp', '@tailwindcss/aspect-ratio'],
