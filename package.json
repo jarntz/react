@@ -1,79 +1,64 @@
 {
   "name": "react-blueprint",
-  "version": "1.0.0",
   "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarntz/react.git"
+  },
   "homepage": "./",
+  "author": "Jordy Arntz",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "husky install"
+  },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.1.1",
-    "@fortawesome/free-brands-svg-icons": "^6.1.1",
-    "@fortawesome/free-regular-svg-icons": "^6.1.1",
-    "@fortawesome/free-solid-svg-icons": "^6.1.1",
-    "@fortawesome/react-fontawesome": "^0.1.18",
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.3.0",
-    "@testing-library/user-event": "^13.5.0",
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@originjs/vite-plugin-commonjs": "^1.0.3",
+    "@vitejs/plugin-react": "^2.1.0",
     "aos": "^2.3.4",
-    "axios": "^0.26.1",
-    "babel-plugin-macros": "^3.1.0",
-    "dotenv": "^16.0.0",
-    "env-cmd": "^10.1.0",
-    "framer-motion": "^6.3.6",
-    "history": "^5.3.0",
+    "axios": "^1.1.3",
+    "dotenv": "^16.0.3",
+    "framer-motion": "^7.5.1",
     "moment": "^2.29.4",
-    "moment-timezone": "^0.5.34",
+    "moment-timezone": "^0.5.37",
+    "prop-types": "^15.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-moment": "^1.1.2",
-    "react-router-dom": "^6.3.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-router-dom": "^6.4.1",
+    "vite": "^3.1.0",
+    "vite-plugin-svgr": "^2.2.1"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.7",
-    "eslint": "^8.12.0",
+    "@babel/core": "^7.19.3",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "autoprefixer": "^10.4.11",
+    "eslint": "^8.23.1",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.29.4",
-    "eslint-plugin-react-hooks": "^4.4.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
-    "postcss": "^8.4.14",
+    "postcss": "^8.4.16",
+    "postcss-import": "^15.0.0",
     "prettier": "^2.7.1",
-    "prettier-plugin-tailwindcss": "^0.1.11",
-    "sass": "^1.49.11",
-    "stylelint": "^14.9.1",
-    "stylelint-config-prettier-scss": "^0.0.1",
-    "stylelint-config-standard-scss": "^4.0.0",
-    "tailwindcss": "^3.0.24",
-    "vercel": "^27.3.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "prepare": "husky install"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "stylelint": "^14.11.0",
+    "stylelint-config-standard": "^28.0.0",
+    "stylelint-prettier": "^2.0.0",
+    "tailwindcss": "^3.2.1"
   },
   "husky": {
     "hooks": {

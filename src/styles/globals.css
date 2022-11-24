@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply overflow-x-hidden bg-light font-silka text-base leading-loose;
+  }
+
+  h1 {
+    @apply font-silka text-5xl font-bold leading-tight md:text-6xl md:leading-tight;
+  }
+
+  h2 {
+    @apply font-silka text-4xl font-bold leading-snug xl:text-5xl xl:leading-snug;
+  }
+
+  h3 {
+    @apply font-silka text-2xl font-bold leading-relaxed xl:text-3xl xl:leading-relaxed;
+  }
+
+  h4 {
+    @apply font-silka text-xl font-medium leading-relaxed;
+  }
+
+  img {
+    @apply object-cover;
+  }
+
+  ::selection {
+    @apply bg-dark text-white;
+  }
+
+  h1::selection,
+  h2::selection,
+  h3::selection,
+  img::selection {
+    @apply bg-dark text-white;
+  }
+
+  mark {
+    @apply bg-white;
+  }
+}
+
+@layer components {
+  .cms-block {
+    @apply relative px-4 py-20 2xl:py-40;
+  }
+}

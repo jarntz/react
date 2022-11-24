@@ -1,10 +1,10 @@
 # Security Policy
 
-This repository contains a web browser based application.
+This is a web browser based application.
 
 ## Supported Versions
 
-The following versions will be supported for security updates. Since this repository contains a web-based application, you'll always be on the latest version as soon as it's being released.
+The following versions will be supported for security updates. Since this app is web-based application, you'll always be on the latest version as soon as it's being released.
 
 | Version    | Supported          |
 | ---------- | ------------------ |
@@ -14,4 +14,4 @@ The following versions will be supported for security updates. Since this reposi
 
 ## Reporting a Vulnerability
 
-If found any security vulnerability, let the development team know as soon as possible. Open an Issue on GitHub or send an e-mail.
+If found any security vulnerability, let the team know as soon as possible by opening an issue or report it privately through GitHub.

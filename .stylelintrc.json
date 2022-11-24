@@ -1,19 +1,17 @@
 {
-  "extends": ["stylelint-config-standard-scss", "stylelint-config-prettier-scss"],
+  "extends": ["stylelint-config-standard"],
+  "plugins": ["stylelint-prettier"],
   "rules": {
-    "color-named": "never",
-    "color-hex-case": "lower",
     "at-rule-no-unknown": [
       true,
       {
         "ignoreAtRules": ["tailwind"]
       }
     ],
-    "scss/at-rule-no-unknown": [
-      true,
-      {
-        "ignoreAtRules": ["tailwind"]
-      }
-    ]
+    "color-named": "never",
+    "color-hex-case": "lower",
+    "declaration-colon-newline-after": null,
+    "prettier/prettier": true,
+    "string-quotes": "single"
   }
 }

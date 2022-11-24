@@ -4,10 +4,10 @@ import './shared.css';
 // Components
 import Welcome from '../components/Welcome/Welcome';
 
-const Home = () => (
-  <div className="page home">
+const NotFound = () => (
+  <div className="page notfound">
     <Welcome />
   </div>
 );
 
-export default Home;
+export default NotFound;

@@ -14,21 +14,22 @@
   },
   "plugins": ["prettier", "react"],
   "rules": {
+    "no-nested-ternary": "off",
+    "import/no-named-as-default": "off",
     "prettier/prettier": [
       "error",
       {
         "endOfLine": "auto"
       }
     ],
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "react/state-in-constructor": "off",
-    "react/prop-types": "off",
-    "no-nested-ternary": "off",
     "react/function-component-definition": [
       2,
       {
         "namedComponents": "arrow-function"
       }
-    ]
+    ],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/prop-types": "off",
+    "react/state-in-constructor": "off"
   }
 }
