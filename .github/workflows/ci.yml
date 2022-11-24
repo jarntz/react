@@ -20,24 +20,25 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '18'
-          cache: 'npm'
+          cache: 'yarn'
+
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
 
       - name: Cache node modules
         uses: actions/cache@v3
-        env:
-          cache-name: cache-node-modules
+        id: yarn-cache
         with:
-          path: ~/.npm
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-
-            ${{ runner.os }}-build-
-            ${{ runner.os }}-
+            ${{ runner.os }}-yarn-
 
       - name: Build and test
         run: |
-          npm ci
-          npm run build --if-present
+          yarn install --frozen-lockfile
+          yarn build
 
       - name: Run Stylelint
         run: npx stylelint src/**/*.css
