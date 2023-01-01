@@ -25,7 +25,7 @@
     "aos": "^2.3.4",
     "axios": "^1.2.1",
     "dotenv": "^16.0.3",
-    "framer-motion": "^7.6.19",
+    "framer-motion": "^8.0.2",
     "moment": "^2.29.4",
     "moment-timezone": "^0.5.39",
     "prop-types": "^15.8.1",
