@@ -7,4 +7,4 @@ npm install
 npm run dev
 ```
 
-Then open `localhost:5173` in your browser.
+Then open `localhost:3000` in your browser.
