@@ -1,4 +1,4 @@
-# React blueprint
+# React.js boilerplate repository
 
 This React project uses Vite. To get started, run:
 
